@@ -1,0 +1,6 @@
+JOB DESCRIPTION
+- Role: Full-Stack Developer specializing in Python and React.
+- Responsibilities: Design, test, and deploy scalable cloud APIs.
+- Requirements: 3+ years experience with PostgreSQL and AWS.
+- Key Skills: Clean code writing, debugging, and system optimization.
+- Perks: 100% remote work, flexible hours, and health benefits.

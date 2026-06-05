@@ -15,6 +15,7 @@ class CVSectionExtractor(ToolBase):
                 "A tool that returns the text of one named section from a CV file."
                 "Use this when you need to read a specific section from a CV file. "
                 "The CV file must be of type .txt file"
+                "Note that section names are often wrapped in double number signs (e.g. ##Contact Information##)."
             ),
             parameters={
                 "type": "object",
@@ -22,7 +23,8 @@ class CVSectionExtractor(ToolBase):
                     "filename_and_section": {
                         "type": "string",
                         "description": "File name and section from it to extract. "
-                                       "Input in the format filename|section_name (e.g. cv_alice.txt|WORK EXPERIENCE)",
+                                       "Input in the format filename|section_name (e.g. cv_alice.txt|WORK EXPERIENCE"
+                                       "or cv_alice.txt|##SKILLS##)",
                         "maxLength": _MAX_FILENAME_LEN,
                     },
                 },
